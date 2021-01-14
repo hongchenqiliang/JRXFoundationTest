@@ -7,7 +7,6 @@
 //
 
 #import "JRXViewController.h"
-
 @interface JRXViewController ()
 
 @end

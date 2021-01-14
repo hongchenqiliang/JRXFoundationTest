@@ -1,19 +1,19 @@
 {
   "name": "JRXFoundationTest",
-  "version": "0.1.0",
-  "summary": "A short description of JRXFoundationTest.",
+  "version": "0.0.1",
+  "summary": "第一次制作私有库，这是一个测试",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/wangyudong/JRXFoundationTest",
+  "homepage": "https://github.com/hongchenqiliang/JRXFoundationTest",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "wangyudong": "ext.wangyudong@jd.com"
+    "wangyudong": "wangyudong@github.com"
   },
   "source": {
-    "git": "https://github.com/wangyudong/JRXFoundationTest.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/hongchenqiliang/JRXFoundationTest.git",
+    "tag": "0.0.1"
   },
   "platforms": {
     "ios": "9.0"

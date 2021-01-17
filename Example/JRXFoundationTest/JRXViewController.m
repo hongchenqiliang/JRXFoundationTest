@@ -7,6 +7,7 @@
 //
 
 #import "JRXViewController.h"
+#import <JRXZDataSafeTools.h>
 @interface JRXViewController ()
 
 @end
@@ -16,7 +17,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
+    NSString *s = [JRXZDataSafeTools safeString:@"66666"];
 }
 
 - (void)didReceiveMemoryWarning

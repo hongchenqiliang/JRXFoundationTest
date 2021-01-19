@@ -1,9 +1,11 @@
+#source 'https://github.com/hongchenqiliang/podSpecs.git'
+#source 'https://github.com/hongchenqiliang/JRXFoundationTest.git'
 use_frameworks!
 
 platform :ios, '9.0'
 
 target 'JRXFoundationTest_Example' do
-  pod 'JRXFoundationTest', :path => 'https://github.com/hongchenqiliang/podSpecs.git'
+  pod 'JRXFoundationTest', :path => '../'
 
   target 'JRXFoundationTest_Tests' do
     inherit! :search_paths

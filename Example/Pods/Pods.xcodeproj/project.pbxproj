@@ -122,8 +122,8 @@
 		B6D014319DA151E2D22A87D0D0BF35C3 /* XCTest+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FCB589DC8253A7CC52B48C5CFC400EA /* XCTest+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B999DEBC999F335CC8E6C471F942F93D /* EXPExpect.m in Sources */ = {isa = PBXBuildFile; fileRef = C7D149F19268987F119A11C546B7EFE0 /* EXPExpect.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		BD9981D0AC9B20516344CCEFCC60FD13 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BB8CC683290F4D17FEDFC772BCB48EE /* Foundation.framework */; };
-		BFB7FA5125B7C12C00F82068 /* testManager.h in Headers */ = {isa = PBXBuildFile; fileRef = BFB7FA4F25B7C12C00F82068 /* testManager.h */; };
-		BFB7FA5225B7C12C00F82068 /* testManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB7FA5025B7C12C00F82068 /* testManager.m */; };
+		BFB7FA6525B7C1AE00F82068 /* testManager.h in Headers */ = {isa = PBXBuildFile; fileRef = BFB7FA6325B7C1AE00F82068 /* testManager.h */; };
+		BFB7FA6625B7C1AE00F82068 /* testManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB7FA6425B7C1AE00F82068 /* testManager.m */; };
 		C18FBD6CD221CAFD1AF15CC99A48CB84 /* EXPMatchers+beFalsy.h in Headers */ = {isa = PBXBuildFile; fileRef = 39C70474E94F3891CC10EBFF6B340A1D /* EXPMatchers+beFalsy.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C442316E23D5810A4AA930F9B063CE97 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 864E6C93517623437094A8833BD247A5 /* XCTest.framework */; };
 		C4632B64DD0F3ADB3BB829A6EBC322E6 /* EXPMatcherHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 1004F3B0D7B836E2BE433BDE8AAEA723 /* EXPMatcherHelpers.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -382,8 +382,8 @@
 		BAC1594F0D2374E5BA180A52DA57710C /* SPTExcludeGlobalBeforeAfterEach.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTExcludeGlobalBeforeAfterEach.h; path = Specta/Specta/SPTExcludeGlobalBeforeAfterEach.h; sourceTree = "<group>"; };
 		BC6825B2BF4CDE73ED66B1069BFB937F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		BD3E006894002C83D989E90A5E9330F2 /* EXPMatchers+beTruthy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beTruthy.h"; path = "Expecta/Matchers/EXPMatchers+beTruthy.h"; sourceTree = "<group>"; };
-		BFB7FA4F25B7C12C00F82068 /* testManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testManager.h; sourceTree = "<group>"; };
-		BFB7FA5025B7C12C00F82068 /* testManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testManager.m; sourceTree = "<group>"; };
+		BFB7FA6325B7C1AE00F82068 /* testManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testManager.h; sourceTree = "<group>"; };
+		BFB7FA6425B7C1AE00F82068 /* testManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testManager.m; sourceTree = "<group>"; };
 		C0E7514AB1F341A616CDFFEB60AE2C49 /* EXPMatchers+match.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+match.h"; path = "Expecta/Matchers/EXPMatchers+match.h"; sourceTree = "<group>"; };
 		C2C47770A2B7F56356D78B6BC2A100B0 /* Specta-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Specta-umbrella.h"; sourceTree = "<group>"; };
 		C4230741943C64927EC644AF561F2F4C /* SPTTestSuite.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTTestSuite.m; path = Specta/Specta/SPTTestSuite.m; sourceTree = "<group>"; };
@@ -628,8 +628,8 @@
 		587151B761B0CC0B9DD57597CAE52D33 /* JRXFoundationTest */ = {
 			isa = PBXGroup;
 			children = (
-				BFB7FA4F25B7C12C00F82068 /* testManager.h */,
-				BFB7FA5025B7C12C00F82068 /* testManager.m */,
+				BFB7FA6325B7C1AE00F82068 /* testManager.h */,
+				BFB7FA6425B7C1AE00F82068 /* testManager.m */,
 				4FBCAE1F60B20DBC0D5668CECD7F7E7E /* JRXZDataSafeTools.h */,
 				A8C04B83C5B95ADC778E7D3B70BF5ECE /* JRXZDataSafeTools.m */,
 				D16B210C9C8B5FDF363540C11F10ED6D /* Tools.h */,
@@ -959,7 +959,7 @@
 			files = (
 				C46FD768A3B6907E3C22582569DD68FE /* JRXFoundationTest-umbrella.h in Headers */,
 				50726FD0A184E3FD301EE10861B0A626 /* JRXZDataSafeTools.h in Headers */,
-				BFB7FA5125B7C12C00F82068 /* testManager.h in Headers */,
+				BFB7FA6525B7C1AE00F82068 /* testManager.h in Headers */,
 				7D5F7EF6867B358277684AA0EDCEF090 /* Tools.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1226,7 +1226,7 @@
 				29341FD6D4BE43F3D2A6D69967A93326 /* JRXFoundationTest-dummy.m in Sources */,
 				48EF9E0771D1A84800ED5B58B13788F8 /* JRXZDataSafeTools.m in Sources */,
 				3665ED1FC84263EF093E1DC82E84B377 /* Tools.m in Sources */,
-				BFB7FA5225B7C12C00F82068 /* testManager.m in Sources */,
+				BFB7FA6625B7C1AE00F82068 /* testManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

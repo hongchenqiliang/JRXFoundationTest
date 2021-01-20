@@ -1,6 +1,6 @@
 {
   "name": "JRXFoundationTest",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "summary": "测试---",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/hongchenqiliang/JRXFoundationTest",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/hongchenqiliang/JRXFoundationTest.git",
-    "tag": "0.0.6"
+    "tag": "0.0.7"
   },
   "platforms": {
     "ios": "9.0"

@@ -11,6 +11,7 @@
 #endif
 
 #import "JRXZDataSafeTools.h"
+#import "Tools.h"
 
 FOUNDATION_EXPORT double JRXFoundationTestVersionNumber;
 FOUNDATION_EXPORT const unsigned char JRXFoundationTestVersionString[];

@@ -129,6 +129,8 @@
 		BEFBE79CA52085923CEA8F357C059F10 /* Specta-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE4596C95132D5FC84194E5D046DEE3 /* Specta-dummy.m */; };
 		BFB7FA3025B6D8F100F82068 /* Tools.h in Headers */ = {isa = PBXBuildFile; fileRef = BFB7FA2E25B6D8F100F82068 /* Tools.h */; };
 		BFB7FA3125B6D8F100F82068 /* Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB7FA2F25B6D8F100F82068 /* Tools.m */; };
+		BFB7FA3B25B7C0A400F82068 /* testManager.h in Headers */ = {isa = PBXBuildFile; fileRef = BFB7FA3925B7C0A400F82068 /* testManager.h */; };
+		BFB7FA3C25B7C0A400F82068 /* testManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB7FA3A25B7C0A400F82068 /* testManager.m */; };
 		C15857C46D54CB292E725809B9F4789F /* SPTCallSite.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F3775741B1E1FF31F13FCA7C0CD488B /* SPTCallSite.m */; };
 		C178A425CDEF09348C788D76A0B3591B /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 220A0E011AFFDA3021348B51AF9B5116 /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		C18FBD6CD221CAFD1AF15CC99A48CB84 /* EXPMatchers+beFalsy.h in Headers */ = {isa = PBXBuildFile; fileRef = 39C70474E94F3891CC10EBFF6B340A1D /* EXPMatchers+beFalsy.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -377,6 +379,8 @@
 		BD3E006894002C83D989E90A5E9330F2 /* EXPMatchers+beTruthy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beTruthy.h"; path = "Expecta/Matchers/EXPMatchers+beTruthy.h"; sourceTree = "<group>"; };
 		BFB7FA2E25B6D8F100F82068 /* Tools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Tools.h; path = JRXFoundationTest/Classes/Tools.h; sourceTree = "<group>"; };
 		BFB7FA2F25B6D8F100F82068 /* Tools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Tools.m; path = JRXFoundationTest/Classes/Tools.m; sourceTree = "<group>"; };
+		BFB7FA3925B7C0A400F82068 /* testManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = testManager.h; sourceTree = "<group>"; };
+		BFB7FA3A25B7C0A400F82068 /* testManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testManager.m; sourceTree = "<group>"; };
 		C0E7514AB1F341A616CDFFEB60AE2C49 /* EXPMatchers+match.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+match.h"; path = "Expecta/Matchers/EXPMatchers+match.h"; sourceTree = "<group>"; };
 		C2C47770A2B7F56356D78B6BC2A100B0 /* Specta-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Specta-umbrella.h"; sourceTree = "<group>"; };
 		C32F41565D3C1DB6EE7CE13A9DF8E745 /* JRXFoundationTest-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JRXFoundationTest-prefix.pch"; sourceTree = "<group>"; };
@@ -804,6 +808,8 @@
 				75B3F5FC746728B2B8BA73A01F5F83A4 /* JRXZDataSafeTools.m */,
 				2DC6B29C8CD4AA747E8FC0C5A9D703C1 /* Pod */,
 				62D0F456ADA3DECB00326DD58A720D1A /* Support Files */,
+				BFB7FA3925B7C0A400F82068 /* testManager.h */,
+				BFB7FA3A25B7C0A400F82068 /* testManager.m */,
 			);
 			name = JRXFoundationTest;
 			path = ../..;
@@ -953,6 +959,7 @@
 			files = (
 				BFB7FA3025B6D8F100F82068 /* Tools.h in Headers */,
 				508B06747E435044FB2999FEA44A2718 /* JRXFoundationTest-umbrella.h in Headers */,
+				BFB7FA3B25B7C0A400F82068 /* testManager.h in Headers */,
 				62B5C794A5975299B2B15F608C3B8A6F /* JRXZDataSafeTools.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1313,6 +1320,7 @@
 				BFB7FA3125B6D8F100F82068 /* Tools.m in Sources */,
 				CC4E9BF9CF8D087098CD9D091CB54472 /* JRXFoundationTest-dummy.m in Sources */,
 				2217B4451CB8E3DD8C047DE9D37D40F2 /* JRXZDataSafeTools.m in Sources */,
+				BFB7FA3C25B7C0A400F82068 /* testManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
